@@ -43,6 +43,16 @@ android {
         kotlinCompilerExtensionVersion = rootProject.extra["compose_version"] as String
         kotlinCompilerVersion = "1.4.32"
     }
+
+    packagingOptions {
+        resources.excludes.addAll(
+            listOf(
+                "META-INF/AL2.0",
+                "META-INF/LGPL2.1"
+            )
+        )
+    }
+
 }
 
 dependencies {
