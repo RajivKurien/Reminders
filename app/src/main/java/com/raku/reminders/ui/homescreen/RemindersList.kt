@@ -8,7 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.raku.reminders.ReminderItem
+import com.raku.reminders.domain.ReminderItem
 import kotlinx.datetime.LocalDate
 
 @Composable

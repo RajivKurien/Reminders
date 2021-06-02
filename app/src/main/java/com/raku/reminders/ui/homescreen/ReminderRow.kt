@@ -1,6 +1,5 @@
 package com.raku.reminders.ui.homescreen
 
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
@@ -9,10 +8,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.raku.reminders.ReminderItem
+import com.raku.reminders.domain.ReminderItem
 import com.raku.reminders.ui.theme.RemindersTheme
 import kotlinx.datetime.LocalDate
 
