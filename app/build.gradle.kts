@@ -69,6 +69,7 @@ dependencies {
     implementation("androidx.activity:activity-compose:1.3.0-alpha06")
     implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.2.1")
 
+    implementation("com.android.support:support-compat:28.0.0")
 
     testImplementation("junit:junit:4.+")
     androidTestImplementation("androidx.test.ext:junit:1.1.2")
